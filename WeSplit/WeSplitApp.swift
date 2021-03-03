@@ -1,12 +1,12 @@
 //
-// Copyright © 2021 ___ORGANIZATIONNAME___
+// Copyright © 2021 Elias Myronidis
 // All rights reserved.
 //
 
 import SwiftUI
 
 @main
-struct HackingWithSwiftUIApp: App {
+struct WeSplitApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

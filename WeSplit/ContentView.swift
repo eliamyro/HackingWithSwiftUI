@@ -1,5 +1,5 @@
 //
-// Copyright © 2021 ___ORGANIZATIONNAME___
+// Copyright © 2021 Elias Myronidis
 // All rights reserved.
 //
 
@@ -7,7 +7,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("We Split")
             .padding()
     }
 }

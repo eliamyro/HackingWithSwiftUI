@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8134559825F0129800DB3375 /* HackingWithSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134559725F0129800DB3375 /* HackingWithSwiftUIApp.swift */; };
-		8134559A25F0129800DB3375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8134559925F0129800DB3375 /* ContentView.swift */; };
-		8134559C25F0129B00DB3375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8134559B25F0129B00DB3375 /* Assets.xcassets */; };
-		8134559F25F0129B00DB3375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8134559E25F0129B00DB3375 /* Preview Assets.xcassets */; };
+		813455AE25F012DC00DB3375 /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813455AD25F012DC00DB3375 /* WeSplitApp.swift */; };
+		813455B025F012DC00DB3375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813455AF25F012DC00DB3375 /* ContentView.swift */; };
+		813455B225F012DE00DB3375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813455B125F012DE00DB3375 /* Assets.xcassets */; };
+		813455B525F012DE00DB3375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813455B425F012DE00DB3375 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8134559425F0129800DB3375 /* HackingWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackingWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8134559725F0129800DB3375 /* HackingWithSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackingWithSwiftUIApp.swift; sourceTree = "<group>"; };
-		8134559925F0129800DB3375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8134559B25F0129B00DB3375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8134559E25F0129B00DB3375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		813455A025F0129B00DB3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813455AB25F012DC00DB3375 /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813455AD25F012DC00DB3375 /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
+		813455AF25F012DC00DB3375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		813455B125F012DE00DB3375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		813455B425F012DE00DB3375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		813455B625F012DE00DB3375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8134559125F0129800DB3375 /* Frameworks */ = {
+		813455A825F012DC00DB3375 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +36,7 @@
 		8134558B25F0129800DB3375 = {
 			isa = PBXGroup;
 			children = (
-				8134559625F0129800DB3375 /* HackingWithSwiftUI */,
+				813455AC25F012DC00DB3375 /* WeSplit */,
 				8134559525F0129800DB3375 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,27 +44,27 @@
 		8134559525F0129800DB3375 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8134559425F0129800DB3375 /* HackingWithSwiftUI.app */,
+				813455AB25F012DC00DB3375 /* WeSplit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8134559625F0129800DB3375 /* HackingWithSwiftUI */ = {
+		813455AC25F012DC00DB3375 /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
-				8134559725F0129800DB3375 /* HackingWithSwiftUIApp.swift */,
-				8134559925F0129800DB3375 /* ContentView.swift */,
-				8134559B25F0129B00DB3375 /* Assets.xcassets */,
-				813455A025F0129B00DB3375 /* Info.plist */,
-				8134559D25F0129B00DB3375 /* Preview Content */,
+				813455AD25F012DC00DB3375 /* WeSplitApp.swift */,
+				813455AF25F012DC00DB3375 /* ContentView.swift */,
+				813455B125F012DE00DB3375 /* Assets.xcassets */,
+				813455B625F012DE00DB3375 /* Info.plist */,
+				813455B325F012DE00DB3375 /* Preview Content */,
 			);
-			path = HackingWithSwiftUI;
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
-		8134559D25F0129B00DB3375 /* Preview Content */ = {
+		813455B325F012DE00DB3375 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8134559E25F0129B00DB3375 /* Preview Assets.xcassets */,
+				813455B425F012DE00DB3375 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,21 +72,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8134559325F0129800DB3375 /* HackingWithSwiftUI */ = {
+		813455AA25F012DC00DB3375 /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 813455A325F0129B00DB3375 /* Build configuration list for PBXNativeTarget "HackingWithSwiftUI" */;
+			buildConfigurationList = 813455B725F012DE00DB3375 /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
-				8134559025F0129800DB3375 /* Sources */,
-				8134559125F0129800DB3375 /* Frameworks */,
-				8134559225F0129800DB3375 /* Resources */,
+				813455A725F012DC00DB3375 /* Sources */,
+				813455A825F012DC00DB3375 /* Frameworks */,
+				813455A925F012DC00DB3375 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HackingWithSwiftUI;
-			productName = HackingWithSwiftUI;
-			productReference = 8134559425F0129800DB3375 /* HackingWithSwiftUI.app */;
+			name = WeSplit;
+			productName = WeSplit;
+			productReference = 813455AB25F012DC00DB3375 /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,8 +97,9 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = "Elias Myronidis";
 				TargetAttributes = {
-					8134559325F0129800DB3375 = {
+					813455AA25F012DC00DB3375 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -116,30 +117,30 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8134559325F0129800DB3375 /* HackingWithSwiftUI */,
+				813455AA25F012DC00DB3375 /* WeSplit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8134559225F0129800DB3375 /* Resources */ = {
+		813455A925F012DC00DB3375 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8134559F25F0129B00DB3375 /* Preview Assets.xcassets in Resources */,
-				8134559C25F0129B00DB3375 /* Assets.xcassets in Resources */,
+				813455B525F012DE00DB3375 /* Preview Assets.xcassets in Resources */,
+				813455B225F012DE00DB3375 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8134559025F0129800DB3375 /* Sources */ = {
+		813455A725F012DC00DB3375 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8134559A25F0129800DB3375 /* ContentView.swift in Sources */,
-				8134559825F0129800DB3375 /* HackingWithSwiftUIApp.swift in Sources */,
+				813455B025F012DC00DB3375 /* ContentView.swift in Sources */,
+				813455AE25F012DC00DB3375 /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,44 +263,44 @@
 			};
 			name = Release;
 		};
-		813455A425F0129B00DB3375 /* Debug */ = {
+		813455B825F012DE00DB3375 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HackingWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = XM9V6QDM3G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HackingWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elias.myronidis.HackingWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elias.myronidis.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		813455A525F0129B00DB3375 /* Release */ = {
+		813455B925F012DE00DB3375 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"HackingWithSwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				DEVELOPMENT_TEAM = XM9V6QDM3G;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = HackingWithSwiftUI/Info.plist;
+				INFOPLIST_FILE = WeSplit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.elias.myronidis.HackingWithSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elias.myronidis.WeSplit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,11 +319,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		813455A325F0129B00DB3375 /* Build configuration list for PBXNativeTarget "HackingWithSwiftUI" */ = {
+		813455B725F012DE00DB3375 /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				813455A425F0129B00DB3375 /* Debug */,
-				813455A525F0129B00DB3375 /* Release */,
+				813455B825F012DE00DB3375 /* Debug */,
+				813455B925F012DE00DB3375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
