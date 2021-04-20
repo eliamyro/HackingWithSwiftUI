@@ -11,6 +11,7 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = ""
     @Environment(\.presentationMode) var presentationMode
+    @State private var alertIsShowing = false
 
     static let types = ["Business", "Personal"]
     var body: some View {
@@ -30,13 +31,27 @@ struct AddView: View {
 
             .navigationBarTitle("Add new expense")
             .navigationBarItems(trailing: Button("Save") {
-                if let actualAmmount = Double(amount) {
-                    let expense = ExpenseItem(name: name, type: type, amount: actualAmmount)
-                    expenses.items.append(expense)
-                    self.presentationMode.wrappedValue.dismiss()
+                if validateAmount() {
+                    if let actualAmmount = Double(amount) {
+                        let expense = ExpenseItem(name: name, type: type, amount: actualAmmount)
+                        expenses.items.append(expense)
+                        self.presentationMode.wrappedValue.dismiss()
+                    }
                 }
             })
         }
+        .alert(isPresented: $alertIsShowing, content: {
+            Alert(title: Text("Error"), message: Text("Amount can be only integer"), dismissButton: .default(Text("OK")))
+        })
+    }
+
+    func validateAmount() -> Bool {
+        guard Int(amount) != nil else {
+            self.alertIsShowing.toggle()
+            return false
+        }
+
+        return true
     }
 }
 
